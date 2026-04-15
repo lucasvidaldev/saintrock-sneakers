@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  width: max-content;
+  text-transform: capitalize;
+
+  padding: 14px 28px;
+  border-radius: 20px;
+
+  background: #e11d48;
+  color: white;
+  text-decoration: none;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+
+  font-size: clamp(18px, 2vw, 18px);
+  line-height: 1;
+
+  transition: all .3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(225,29,72,.4);
+}
